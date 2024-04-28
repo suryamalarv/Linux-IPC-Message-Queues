@@ -23,6 +23,7 @@ Execute the C Program for the desired output.
 #REG NO. 212223230224
 
 ## C program that receives a message from message queue and display them
+```
 //C Program for Message Queue (Writer Process) 
 #include <stdio.h> 
 #include <sys/ipc.h> 
@@ -50,8 +51,9 @@ int main()
 	printf("Data send is : %s \n", message.mesg_text); 
 	return 0; 
 }
-
+```
 ## C.reader
+```
 #include <sys/msg.h>
 
 // structure for message queue
@@ -79,7 +81,7 @@ int main()
 	return 0;
 }
 
-
+```
 # OUTPUT
 ![alt text](<1 exp 4.png>)
 
